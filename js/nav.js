@@ -1387,19 +1387,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     //自动收起搜索界面
-    var moSearcgInput = document.querySelector(".mo-menu-search .search-input");
+    var moSearchInput = document.querySelector(".mo-menu-search .search-input");
     //关闭搜索按钮时会报错
-    if (moSearcgInput) {
+    if (moSearchInput) {
         function moSearchClose() {
-            moSearcgInput.blur();
+            moSearchInput.blur();
             closeMenu(moNavMenu, moNavButton);
         }
 
-        moSearcgInput.addEventListener("focus", function () {
+        moSearchInput.addEventListener("focus", function () {
             document.addEventListener('pjax:complete', moSearchClose);
         });
 
-        moSearcgInput.addEventListener("blur", function () {
+        moSearchInput.addEventListener("blur", function () {
             document.removeEventListener("pjax:complete", moSearchClose);
         });
     }
