@@ -1,5 +1,5 @@
 const nav = document.querySelector('nav');
-if (!nav.classList.contains('sakura_nav')) {
+if (nav && !nav.classList.contains('sakura_nav')) {
     init_iro_nav();
 }
 function init_iro_nav() {

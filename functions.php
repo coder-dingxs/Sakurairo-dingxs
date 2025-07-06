@@ -1884,7 +1884,7 @@ function theme_folder_check_on_admin_init() {
     // 获取当前父主题文件夹名称及路径
     $current_theme_path = get_template_directory();
     $theme_folder_name = basename($current_theme_path);
-    $correct_theme_folder = 'Sakurairo';
+    $correct_theme_folder = 'Sakurairo-dingxs';
     $user_locale = get_user_locale();
 
     // 仅管理员用户处理
