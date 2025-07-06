@@ -1388,6 +1388,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //自动收起搜索界面
     var moSearcgInput = document.querySelector(".mo-menu-search .search-input");
+    //关闭搜索按钮时会报错
     if (moSearcgInput) {
         function moSearchClose() {
             moSearcgInput.blur();
