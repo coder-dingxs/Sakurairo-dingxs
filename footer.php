@@ -58,8 +58,11 @@ $reception_background = iro_opt('reception_background');
               </svg>
             </div>
           <?php endif; ?>
-        <a href="https://github.com/mirai-mamori/Sakurairo" rel="noopener" target="_blank">Theme Sakurairo</a>
-        <a href="https://docs.fuukei.org/" rel="noopener" target="_blank">by Fuukei</a>
+        <span style="color: #0000004d">Theme </span>
+        <a href="https://github.com/coder-dingxs/Sakurairo-dingxs" rel="noopener" target="_blank">Sakurairo-dingxs</a>
+        <span style="color: #0000004d"> power by Theme </span>
+        <a href="https://github.com/mirai-mamori/Sakurairo" rel="noopener" target="_blank">Sakurairo</a>
+        <a href="https://docs.fuukei.org/" rel="noopener" target="_blank">(by Fuukei)</a>
       </div>
     </div><!-- .site-info -->
   </footer><!-- #colophon -->
